@@ -1,0 +1,128 @@
+/* navbar styling */
+.navbar-brand img {
+    height: 36px;
+}
+
+.nav-collapse-icon {
+    font-size: 1.8rem;
+    color: darkorange;
+
+}
+
+.navbar-toggler {
+    border: 2px solid darkorange !important;
+    padding: 7px 14px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    text-align: center;
+    color: grey !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn {
+    border-radius: 24px;
+    padding: 6px 30px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: darkorange;
+    border: 1px solid orange;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 140, 0);
+    border: 1px solid orange;
+}
+
+/* main styling */
+main {
+    height: 250px;
+    background-color: beige;
+    background-image: url(../img/my-first-skool-happy-children.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+/* creating a darker background image effect */
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(93, 93, 93, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.overlay2 {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0), darkorange);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+/* section-form styling */
+#section-form {
+    max-width: 800px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(108,168,181);
+    color: whitesmoke;
+}
+
+footer h5 {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.footer-icon {
+    font-size: 1.8rem;
+    color: rgb(43,72,88);
+}
+
+.footer-address {
+    font-size: 13px;
+}
+
+.footer-contact
+
+/* 768px settings */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: paleturquoise;
+    }
+    .navbar-brand img {
+        height: 42px;
+    }
+}
+
+/* 992px settings */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* 1200px laptop settings */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: pink;
+    }
+}
